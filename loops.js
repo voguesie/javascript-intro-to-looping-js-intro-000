@@ -19,6 +19,7 @@ function whileLoop(number) {
   return "done"
 }
 // Pick up incrementVariable from lessons
+var i = 0;
 
 function incrementVariable() {
   i = i+1;
