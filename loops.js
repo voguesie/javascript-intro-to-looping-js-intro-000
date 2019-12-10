@@ -14,7 +14,8 @@ function forLoop (loopArray) {
 
 function whileLoop(number) {
   while (number > 0) {
-    console.log(--number);
+    console.log(--number); // Decrements "number" by 1.
   }
   return "done"
 }
+
