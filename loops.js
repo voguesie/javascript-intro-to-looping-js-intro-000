@@ -1,6 +1,6 @@
 // forLoop takes an array as an input, and adds strings with a for loop.
 
-function forLoop(loopArray) {
+var forLoop = function (loopArray) {
   var newArray;
   for (var i = 1; i <= 25; i++) {
     if i === 1 {
