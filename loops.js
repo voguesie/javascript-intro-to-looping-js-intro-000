@@ -2,8 +2,8 @@
 
 var forLoop = function (loopArray) {
   var newArray;
-  for (var i = 1; i <= 25; i++) {
-    if i === 1 {
+  for (var i = 0; i < 25; i++) {
+    if i === 0 {
       newArray = loopArray.push("I am 1 strange loop.");
     }
     else {
