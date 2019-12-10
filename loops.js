@@ -4,11 +4,11 @@ var forLoop = function (loopArray) {
   var newArray;
   for (var i = 0; i < 25; i++) {
     if i === 1 {
-      newArray = loopArray.push("I am 1 strange loop.");
+      loopArray.push("I am 1 strange loop.");
     }
     else {
-      newArray = loopArray.push(`I am ${i} strange loops.`);
+      loopArray.push(`I am ${i} strange loops.`);
     }
   }
-  return newArray
+  return loopArray
 }
